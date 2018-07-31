@@ -16,8 +16,9 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'dotenv-rails', '~> 2.5.0'
   gem 'factory_bot_rails'
-  gem 'pry-rails'
   gem 'ffaker'
+  gem 'pry-rails'
+  gem 'rb-readline'
   gem 'rspec-rails', '~> 3.7'
 end
 
