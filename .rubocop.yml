@@ -1,0 +1,26 @@
+AllCops:
+  Exclude:
+    - 'bin/*'
+    - 'config/**/*'
+    - 'db/**/*'
+    - 'public/**/*'
+    - 'spec/**/*'
+    - 'vendor/**/*'
+    - 'Gemfile'
+
+Metrics/AbcSize:
+  Max: 35
+Metrics/LineLength:
+  Max: 119
+Metrics/MethodLength:
+  Max: 20
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/TrailingCommaInHashLiteral:
+  Enabled: false
+
+Layout/EmptyLinesAroundClassBody:
+  Enabled: false
