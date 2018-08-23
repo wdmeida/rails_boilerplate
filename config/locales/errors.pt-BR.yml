@@ -10,8 +10,6 @@ pt-BR:
       parser_error: Ocorreu um erro ao processar a resposta. Por favor, tente novamente.
       mongo_error: Ocorreu um erro ao persistir as informações. Por favor, tente novamente.
     request:
-      invalid_cpf: CPF inválido. Por favor, insira um CPF válido e tente novamente.
-      invalid_cnpj: CNPJ inválido. Por favor, insira um CNPJ válido e tente novamente.
       invalid_params: Parâmetros inválidos. Por favor, verifique os parâmetros enviados e tente novamente.
       invalid_token: Token inválido.
       missing_token: Token ausente.
