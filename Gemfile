@@ -20,7 +20,7 @@ group :development, :test do
   gem 'ffaker'
   gem 'pry-rails'
   gem 'rb-readline'
-  gem 'rspec-rails', '~> 3.7'
+  gem 'rspec-rails', '~> 3.8'
 end
 
 group :development do

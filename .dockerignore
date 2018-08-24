@@ -1,0 +1,7 @@
+.env
+.env.sample
+coverage
+/.bundle
+/log/*
+/tmp/*
+.byebug_history

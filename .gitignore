@@ -67,3 +67,6 @@ bower.json
 # Ignore node_modules
 node_modules/
 
+# Ignore docker files
+Dockerfile
+docker-compose.yml
