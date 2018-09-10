@@ -25,5 +25,7 @@ module RailsBoilerplate
       g.orm :mongoid
       g.factory_bot false
     end
+
+    config.eager_load_paths << Rails.root.join('lib')
   end
 end
