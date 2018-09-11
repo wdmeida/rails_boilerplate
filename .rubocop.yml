@@ -19,8 +19,10 @@ Style/FrozenStringLiteralComment:
   Enabled: false
 Style/Documentation:
   Enabled: false
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: consistent_comma
 Style/TrailingCommaInHashLiteral:
-  Enabled: false
+  EnforcedStyleForMultiline: consistent_comma
 
 Layout/EmptyLinesAroundClassBody:
   Enabled: false
