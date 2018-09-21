@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "dokku": {
+      "postdeploy": "rails db:mongoid:create_indexes"
+    }
+  }
+}
