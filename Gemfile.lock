@@ -116,6 +116,7 @@ GEM
       pry (>= 0.10.4)
     puma (3.12.0)
     rack (2.0.5)
+    rack-cors (1.0.2)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (5.2.1)
@@ -222,6 +223,7 @@ DEPENDENCIES
   mongoid-rspec
   pry-rails
   puma (~> 3.11)
+  rack-cors
   rails (~> 5.2.0)
   rails-i18n (~> 5.1)
   rb-readline
@@ -236,4 +238,4 @@ RUBY VERSION
    ruby 2.5.1p57
 
 BUNDLED WITH
-   1.16.3
+   1.16.4
