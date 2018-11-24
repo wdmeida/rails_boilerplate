@@ -16,3 +16,16 @@ test:
         read:
           mode: :primary
         max_pool_size: 1
+
+production:
+  clients:
+    default:
+      database: rails_boilerplate
+      hosts:
+        - <%= ENV['MONGODB_URL'] %>
+      options:
+        user: <%= ENV['MONGODB_USER'] %>
+        password: <%= ENV['MONGODB_PASSWORD'] %>
+        auth_source: <%= ENV['MONGODB_AUTH_SOURCE'] %>
+        max_pool_size: 100
+        min_pool_size: 5
