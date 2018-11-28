@@ -6,7 +6,6 @@ AllCops:
     - 'public/**/*'
     - 'spec/**/*'
     - 'vendor/**/*'
-    - 'Gemfile'
 
 Metrics/AbcSize:
   Max: 35
@@ -27,4 +26,21 @@ Style/TrailingCommaInHashLiteral:
   EnforcedStyleForMultiline: consistent_comma
 
 Layout/EmptyLinesAroundClassBody:
+  Enabled: false
+Style/UnneededInterpolation:
+  Enabled: false
+Style/BracesAroundHashParameters:
+  Enabled: false
+Style/SymbolArray:
+  Enabled: true
+  EnforcedStyle: brackets
+
+Style/ConditionalAssignment:
+  Enabled: false
+Style/NumericPredicate:
+  Enabled: false
+Naming/AccessorMethodName:
+  Enabled: false
+
+Bundler/OrderedGems:
   Enabled: false
