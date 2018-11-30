@@ -14,10 +14,10 @@ module ExceptionHandler
   private
 
   def unprocessable_request(error)
-    json_response({ error: { message: error.message } }, :bad_request)
+    json_response({ errors: [{ status: 'UNPROCESSABLE_REQUEST_ERROR', msg: error.message }] }, :bad_request)
   end
 
   def unauthorized_request(error)
-    json_response({ error: { message: error.message } }, :unauthorized)
+    json_response({ errors: [{ status: 'UNAUTHORIZED_REQUEST_ERROR', msg: error.message }] }, :unauthorized)
   end
 end
