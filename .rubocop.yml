@@ -27,6 +27,8 @@ Style/TrailingCommaInHashLiteral:
 
 Layout/EmptyLinesAroundClassBody:
   Enabled: false
+Layout/EmptyLinesAroundModuleBody:
+  Enabled: false
 Style/UnneededInterpolation:
   Enabled: false
 Style/BracesAroundHashParameters:
