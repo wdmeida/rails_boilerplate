@@ -9,7 +9,7 @@ require 'action_mailer/railtie'
 require 'action_view/railtie'
 require 'action_cable/engine'
 
-Bundler.require(*Rails.groups)
+Bundler.require(*Rails.groups, :private_gems)
 
 module RailsBoilerplate
   class Application < Rails::Application
