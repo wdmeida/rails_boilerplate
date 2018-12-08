@@ -10,7 +10,6 @@ gem 'rack-cors'
 
 gem 'jwt', '~> 2.1.0'
 gem 'mongoid', '~> 7.0.1'
-gem 'mongoid-enum', '~>0.4.0'
 gem 'rails-i18n', '~> 5.1'
 gem 'tty-spinner'
 
