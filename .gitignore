@@ -42,6 +42,8 @@ config/master.key
 # TODO Comment out this rule if environment variables can be committed
 .env
 .env*
+envs.zip
+keys.*
 
 ## Environment normalization:
 /.bundle
