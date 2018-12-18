@@ -41,6 +41,10 @@ Style/ConditionalAssignment:
   Enabled: false
 Style/NumericPredicate:
   Enabled: false
+Style/CaseEquality:
+  Enabled: false
+Style/RedundantSelf:
+  Enabled: false
 Naming/AccessorMethodName:
   Enabled: false
 
