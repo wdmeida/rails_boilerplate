@@ -1,24 +1,13 @@
-# README
+# Rails Boilerplate
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Initial boilerplate used as the gateway for the development of Ruby on Rails projects developed by InovaMind. It has installed and configured the following gems:
 
-Things you may want to cover:
+- mongoid
+- jwt
+- rspec
+- ffaker
+- factory_bot
 
-* Ruby version
+It also has the following style guide installed and preconfigured:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- rubocop
