@@ -9,7 +9,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'rack-cors'
 
 gem 'jwt', '~> 2.1.0'
-gem 'mongoid', '~> 7.0.1'
+gem 'mongoid', '~> 7.0.2'
 gem 'rails-i18n', '~> 5.1'
 gem 'tty-spinner'
 
