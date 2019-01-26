@@ -8,6 +8,7 @@ gem 'puma', '~> 3.12'
 gem 'bootsnap', '>= 1.3.2', require: false
 gem 'rack-cors'
 
+gem 'dotenv-rails', '~> 2.5.0'
 gem 'jwt', '~> 2.1.0'
 gem 'mongoid', '~> 7.0.2'
 gem 'rails-i18n', '~> 5.1'
@@ -15,7 +16,6 @@ gem 'tty-spinner'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'dotenv-rails', '~> 2.5.0'
   gem 'factory_bot_rails'
   gem 'ffaker'
   gem 'pry-rails'
