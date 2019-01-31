@@ -1,7 +1,7 @@
 development:
   clients:
     default:
-      database: rails_boilerplate_development
+      database: rails_boilerplate_dev
       hosts:
         - localhost:27017
       options:
