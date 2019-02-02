@@ -6,6 +6,7 @@ AllCops:
     - 'public/**/*'
     - 'spec/**/*'
     - 'vendor/**/*'
+    - 'Gemfile'
 
 Metrics/AbcSize:
   Max: 35
