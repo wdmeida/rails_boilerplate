@@ -37,6 +37,9 @@ Style/BracesAroundHashParameters:
 Style/SymbolArray:
   Enabled: true
   EnforcedStyle: brackets
+Style/WordArray:
+  Enabled: true
+  EnforcedStyle: brackets
 
 Style/ConditionalAssignment:
   Enabled: false
