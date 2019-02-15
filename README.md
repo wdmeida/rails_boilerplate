@@ -1,6 +1,6 @@
 # Rails Boilerplate
 
-Initial boilerplate used as the gateway for the development of Ruby on Rails projects developed by InovaMind. It has installed and configured the following gems:
+Initial boilerplate used as the gateway for the development of Ruby on Rails projects. It has installed and configured the following gems:
 
 - mongoid
 - jwt
